@@ -1,0 +1,85 @@
+.fieldset {
+	margin: 20px;
+	padding: 15px;
+	background: linear-gradient(#2980B9, #6DD5FA, #FFFFFF);
+	border: grey solid 3px;
+}
+
+legend {
+	font-size: 27px;
+	padding: 20px;
+	text-transform: uppercase;
+}
+
+.formulario { 
+	margin: 20px;
+	padding: 10px;
+}
+
+form {
+	margin: 20px;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.boton { 
+	margin: 10px;
+	padding: 10px;
+	background: linear-gradient(to right, #2c3e50, #3498db);
+	display: inline-block;
+	width: 25%;
+	display: flex;
+	align-self: center;
+	border: 3px solid black;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+.boton:hover {
+	cursor: pointer;
+	transform: translateY(-3px);
+	transition: cubic-bezier(0.215, 0, 0.610, 1) .5s;
+}
+
+.boton:active {
+	transform:translateY(5px);
+	transition: cubic-bezier(0.215, 0, 0.610, 1) .5s;
+}
+
+.boton:focus {
+	border: 3px solid black;
+}
+
+textarea {
+	max-height: 210px;
+}
+
+.numeros p {
+	font-size: 25px;
+	padding: 10px;
+}
+
+.numeros b {
+	font-size: 35px;
+	padding: 10px;
+}
+
+.hcontacto {
+	text-align: center;
+	font-size: 30px;
+	background: none;
+}
+
+input, textarea {
+  border: none;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 2px;
+  padding-left: 5px;
+  outline: none;
+}
+
+input:focus, textarea:focus {
+	border: 1px solid lightblue;
+}

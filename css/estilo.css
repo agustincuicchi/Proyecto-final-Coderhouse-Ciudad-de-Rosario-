@@ -1,0 +1,544 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  background-color: white; }
+
+.logo img:hover {
+  transform: translateY(-5px);
+  transition-duration: 2s; }
+
+.logo img:active {
+  transform: translateY(25px); }
+
+h1 {
+  color: #2E2E2E;
+  word-spacing: 3px;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  animation-name: text-focus-in;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none; }
+
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0; }
+  100% {
+    filter: blur(0);
+    opacity: 1; } }
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  margin: 15px;
+  padding: 15px;
+  background: linear-gradient(to left, #E0EAFC, #CFDEF3);
+  border-radius: 12px; }
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+  margin: 15px;
+  padding: 15px;
+  background: linear-gradient(to left, #E0EAFC, #CFDEF3);
+  border-radius: 12px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Bebas Neue" Tahoma, sans-serif;
+  text-transform: uppercase; }
+
+* {
+  font-family: tahoma , sans-serif; }
+
+a {
+  text-decoration: none; }
+
+p {
+  font-family: 'Ubuntu', sans-serif; }
+
+.parallax {
+  background-image: url(../assets/img/parallax.jpg);
+  height: 750px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.bienvenida, .imagenBienvenida {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  flex-wrap: wrap; }
+
+.bienvenida b, .bienvenida a {
+  padding: 0 5px; }
+
+.bienvenida {
+  background-color: #6DD5FA;
+  padding: 10;
+  margin: 0; }
+
+.imagenBienvenida {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0; }
+
+.nosotros {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+
+.nosotros__texto {
+  padding: 15px; }
+
+.nosotros__texto p {
+  text-align: center;
+  font-size: 35px; }
+
+.nosotros__texto h3 {
+  font-size: 50px;
+  text-align: center; }
+
+.navbar {
+  font-size: 100%; }
+
+.clima {
+  display: flex;
+  align-self: flex-end; }
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  flex-direction: column;
+  font-size: 25px;
+  margin: 20px;
+  padding: 15px; }
+
+.util {
+  border: 5px solid black;
+  text-align: center;
+  padding: 40px 200px;
+  background: linear-gradient(to right, #076585, #fff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center; }
+
+.widgets {
+  margin: 25px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.clima {
+  display: flex;
+  justify-self: flex-end; }
+
+.tour a {
+  text-decoration: none;
+  margin-top: 2px; }
+
+.tour span {
+  margin: 5px; }
+
+.redesSociales {
+  list-style-type: none;
+  text-align: center; }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  background-color: #e3f2fd;
+  padding: 20px; }
+
+.footer ul {
+  margin: 0px 10px;
+  padding: 0px 10px; }
+
+.footer ul li {
+  padding: 5px;
+  display: inline;
+  margin: 5px; }
+
+.footer ul li a {
+  margin: 5px;
+  padding: 5px; }
+
+.logos {
+  width: 7%;
+  padding: 10px; }
+
+.logos:hover {
+  animation-name: footer;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-duration: 1.7s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards; }
+
+@keyframes footer {
+  0% {
+    /*transform: scale(1.05 , 1.05);*/
+    transform: translateY(-0.5px); }
+  50% {
+    /*transform: scale(1 , 1);*/
+    transform: translateY(-7px); }
+  100% {
+    /*transform: scale(1.05 , 1.05);*/
+    transform: translateY(-7px); } }
+
+.iframeDiv {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px; }
+
+.iframe {
+  border: 5px outset skyblue;
+  margin: 5px;
+  padding: 5px;
+  background-color: black; }
+
+.gal__img {
+  display: flex;
+  justify-content: space-evenly; }
+
+.gal {
+  background: linear-gradient(#FFFFFF, #6DD5FA, #FFFFFF); }
+
+.gal__img--div {
+  margin: 5px;
+  padding: 5px; }
+
+.historia {
+  text-align: justify;
+  padding: 20px;
+  margin: 8px;
+  border: 3px solid black;
+  background-color: #58ACFA;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none; }
+
+.aside {
+  padding: 20px;
+  border: 3px solid black;
+  background: linear-gradient(to left, #E0EAFC, #CFDEF3);
+  margin: 32px;
+  text-align: justify; }
+
+.articleHistoria {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 5px;
+  padding: 5px; }
+
+.imgHistoria {
+  margin: 10px;
+  border: 5px solid black; }
+
+.sigloXX p b {
+  padding: 20px;
+  margin: 15px; }
+
+.sigloXX {
+  text-align: center;
+  margin: 15px;
+  padding: 15px; }
+
+.puntos {
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+
+.mapa {
+  width: 85%;
+  height: 500px;
+  margin: 10px;
+  padding: 10px;
+  border: lightblue solid 3px; }
+
+.puntos__div {
+  border: lightblue solid 5px;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #e3f2fd; }
+
+.puntos__div--titulos {
+  font-size: 25px;
+  background-color: lightblue;
+  border: black 2px solid;
+  border-radius: 3px;
+  margin: 5px;
+  padding: 5px; }
+
+.interes__h3 {
+  text-align: center;
+  background: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 30px;
+  margin: 15px;
+  padding: 15px;
+  background: lightblue;
+  border-radius: 12px;
+  translate: 750px 40px;
+  width: 40%;
+  border: 3px solid black; }
+
+.interes__bg {
+  height: 350px;
+  background-image: url(../assets/img/bg-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%; }
+
+.fieldset {
+  margin: 20px;
+  padding: 15px;
+  background: linear-gradient(#2980B9, #6DD5FA, #FFFFFF);
+  border: grey solid 3px; }
+
+legend {
+  font-size: 27px;
+  padding: 20px;
+  text-transform: uppercase; }
+
+.formulario {
+  margin: 20px;
+  padding: 10px; }
+
+form {
+  margin: 20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.boton {
+  margin: 10px;
+  padding: 10px;
+  background: linear-gradient(to right, #2c3e50, #3498db);
+  display: inline-block;
+  width: 25%;
+  display: flex;
+  align-self: center;
+  border: 3px solid black;
+  font-size: 17px;
+  text-transform: uppercase; }
+
+.boton:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  transition: cubic-bezier(0.215, 0, 0.61, 1) 0.5s; }
+
+.boton:active {
+  transform: translateY(5px);
+  transition: cubic-bezier(0.215, 0, 0.61, 1) 0.5s; }
+
+.boton:focus {
+  border: 3px solid black; }
+
+textarea {
+  max-height: 210px; }
+
+.numeros p {
+  font-size: 25px;
+  padding: 10px; }
+
+.numeros b {
+  font-size: 35px;
+  padding: 10px; }
+
+.hcontacto {
+  text-align: center;
+  font-size: 30px;
+  background: none; }
+
+input, textarea {
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  padding-left: 5px;
+  outline: none; }
+
+input:focus, textarea:focus {
+  border: 1px solid lightblue; }
+
+@media screen and (max-width: 768px) {
+  .redesSociales {
+    list-style-type: none; }
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px; }
+  .footer h4, .footer ul {
+    margin: 0px 10px;
+    padding: 0px 10px; }
+  .footer ul li {
+    padding: 0px;
+    display: inline;
+    margin: 0px; }
+  .footer ul li a {
+    margin: 5px;
+    padding: 5px; }
+  .logos {
+    width: 15%;
+    padding: 3px; }
+  .bienvenida, .imagenBienvenida {
+    margin: 10px;
+    padding: 10px;
+    display: inline-block; }
+  .bienvenida b, .bienvenida a {
+    padding: 0px; }
+  .bienvenida {
+    background-color: #6DD5FA;
+    padding: 10;
+    margin: 0; }
+  .nosotros {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center; }
+  .util {
+    border: 4px solid black;
+    text-align: center;
+    padding: 10px 35px;
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .widgets {
+    margin: 15px;
+    padding: 0; }
+  p {
+    font-size: 120%; }
+  #navbarNav {
+    text-align: center; }
+  .nav-item {
+    border: 1.5px solid grey;
+    border-radius: 5px;
+    background-color: lightblue;
+    margin: 2px; }
+  .parallax {
+    background-image: url(../assets/img/parallax.jpg);
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .nosotros__texto h3 {
+    font-size: 35px; }
+  .nosotros__texto p, .nosotros__texto b {
+    font-size: 27px; }
+  .boton {
+    margin: 10px;
+    padding: 10px;
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    display: inline-block;
+    width: 25%;
+    display: flex;
+    align-self: center;
+    border: 3px solid black;
+    font-size: 17px;
+    text-transform: uppercase; }
+  .fieldset {
+    border-color: black;
+    margin: 5px;
+    padding: 5px;
+    background-color: white; }
+  .fieldset legend {
+    text-align: center; }
+  .formulario {
+    margin: 5px;
+    padding: 5px; }
+  form {
+    margin: 2px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .numeros p {
+    font-size: 15px;
+    padding: 5px; }
+  .numeros b {
+    font-size: 25px;
+    padding: 5px; }
+  .numeros {
+    margin: 0; }
+  .hcontacto {
+    text-align: center;
+    font-size: 25px; }
+  .mapa {
+    width: 90%;
+    height: auto; }
+  table {
+    display: block;
+    overflow-x: auto; }
+  .interes__h3 {
+    translate: 0 0;
+    width: 92%; }
+  .interes__bg {
+    height: 550px; }
+  .carousel {
+    border: lightblue inset 5px; }
+  .gal__img {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+    padding: 5px; }
+  .historia {
+    text-align: justify;
+    padding: 20px;
+    margin: 3px;
+    border: 5px solid black;
+    background-color: #58ACFA;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none; }
+  .aside {
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid black;
+    background-color: gray;
+    text-align: justify; }
+  .articleHistoria {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px; }
+  .imgHistoria {
+    margin: 10px;
+    border: 5px solid black; }
+  .sigloXX p b {
+    padding: 20px;
+    margin: 15px; }
+  .sigloXX {
+    text-align: center;
+    margin: 15px;
+    padding: 15px; } }

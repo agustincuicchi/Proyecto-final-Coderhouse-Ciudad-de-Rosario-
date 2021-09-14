@@ -1,0 +1,55 @@
+.puntos {
+	display: flex;
+	flex-direction: column;
+	text-align: center; 
+}
+
+.mapa {
+	width: 85%;
+	height: 500px;
+	margin: 10px;
+	padding: 10px;
+	border: lightblue solid 3px;
+}
+
+.puntos__div {
+	border: lightblue solid 5px;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 10px;
+	background-color: #e3f2fd;
+}
+
+.puntos__div--titulos {
+	font-size: 25px;
+	background-color: lightblue;
+	border: black 2px solid;
+	border-radius: 3px;
+	margin: 5px;
+	padding: 5px;
+}
+
+.interes__h3 {
+	text-align: center;
+	background: none;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	font-size: 30px;
+	margin: 15px;
+	padding: 15px; 
+	background: lightblue;
+	border-radius: 12px;
+	translate: 750px 40px;
+	width: 40%;
+	border: 3px solid black;
+}
+
+.interes__bg {
+	height: 350px;
+	background-image: url(../assets/img/bg-img.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+}

@@ -1,0 +1,42 @@
+.historia {
+	text-align: justify;
+	padding: 20px;
+	margin: 8px;
+	border: 3px solid black;
+	background-color: #58ACFA;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+}
+
+.aside {
+	padding: 20px;
+	border: 3px solid black;
+	background: linear-gradient( to left, #E0EAFC, #CFDEF3);
+	margin: 32px;
+	text-align: justify;
+}
+
+.articleHistoria{
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 5px;
+	padding: 5px;
+}
+
+.imgHistoria {
+	margin: 10px;
+	border: 5px solid black; 
+}
+
+.sigloXX p b{ 
+	padding: 20px;
+	margin: 15px;
+}
+
+.sigloXX {
+	text-align: center;
+	margin: 15px;
+	padding: 15px;
+}
+

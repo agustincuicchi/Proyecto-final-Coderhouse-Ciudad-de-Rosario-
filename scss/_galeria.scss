@@ -1,0 +1,28 @@
+.iframeDiv{
+	display: flex;
+	justify-content: center;
+	margin: 5px;
+	padding: 5px;
+}
+
+.iframe {
+	border: 5px outset skyblue;
+	margin: 5px;
+	padding: 5px;
+	background-color: black;
+}
+
+.gal__img {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.gal {
+	background: linear-gradient(#FFFFFF, #6DD5FA, #FFFFFF);
+}
+
+.gal__img--div {
+	margin: 5px;
+	padding: 5px;
+}
+
