@@ -237,4 +237,41 @@
 	//cierre historia
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	//general
+	#navbarNav {
+		text-align: center;
+	}
+	.nav-item {
+		border: 1.5px solid grey;
+		border-radius: 5px;
+		background-color: lightblue;
+		margin: 2px;
+	}
+	.logos {
+		width:9%; 
+		padding: 3px;
+	}
+	//cierre general
+	//index
+
+	//cierre index
+	//interes
+	.interes__h3 {
+		text-align: center;
+		background: none;
+		display: flex;
+		align-self: center;
+		flex-wrap: wrap;
+		font-size: 30px;
+		margin: 15px;
+		padding: 15px; 
+		background: lightblue;
+		border-radius: 12px;
+		width: 96%;
+		border: 3px solid black;
+		translate: none;
+	}
+}
+
 

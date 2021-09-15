@@ -86,7 +86,7 @@ input, textarea {
   margin-bottom: 5px;
 }
 
-input:focus, textarea:focus {
+.input:focus {
 	border: 1px solid lightblue;
 	border-bottom: black solid 3px;
 	border-top: none;
@@ -111,11 +111,13 @@ input {
 
 @keyframes scale-up-center {
 	0%{
-		-webkit-transform: scale(.2);
-		transform: scale(.2);
+		-webkit-transform: scaleX(0);
+		transform: scaleX(0);
+		opacity: 1;
 	  }
 	  100%{
-		-webkit-transform: scale(1);
-		transform: scale(1);
+		-webkit-transform: scaleX(1);
+		transform: scaleX(1);
+		opacity: 1;
 	  }
 	}
