@@ -99,6 +99,17 @@
 	.nosotros__texto p, .nosotros__texto b{
 		font-size: 27px;
 	}
+	.transito p {
+		text-align: center;
+		font-size: 25px;
+		text-transform: uppercase;
+	}
+	.info {
+		padding: 5px;
+		margin: 0;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
 	//contacto
 	.boton { 
 		margin: 10px;
