@@ -109,6 +109,10 @@ input {
 	border-right: none;
 }
 
+textarea {
+	border: 3px black solid;
+}
+
 @keyframes scale-up-center {
 	0%{
 		-webkit-transform: scaleX(0);

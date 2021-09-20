@@ -1,25 +1,19 @@
 @media screen and (max-width: 768px) {
 
 	.redesSociales{
-		list-style-type: none; 
+		list-style-type: none;
 	}
 	
 	.footer {
 		display: flex;
 		justify-content: space-around;
-		flex-direction: column;
 		padding: 20px;
-	}
-	
-	.footer h4, .footer ul {
-		margin: 0px 10px;
-		padding: 0px 10px;
 	}
 	
 	.footer ul li{
 		padding: 0px;
 		display: inline;
-		margin: 0px; 
+		margin: 0px;
 	}
 	
 	
@@ -29,7 +23,8 @@
 	}
 	
 	.logos {
-		width:15%; 
+		width:17%; 
+		height: auto;
 		padding: 3px;
 	}
 	
@@ -116,12 +111,20 @@
 		padding: 10px;
 		background: linear-gradient(to right, #2c3e50, #3498db);
 		display: inline-block;
-		width: 25%;
+		width: 100%;
 		display: flex;
 		align-self: center;
 		border: 3px solid black;
 		font-size: 17px;
 		text-transform: uppercase;
+		text-align: center;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	.botones {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
 	}
 	.fieldset {
 		border-color: black;
@@ -250,6 +253,9 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 	//general
+	h3 {
+		margin: 0;
+	}
 	#navbarNav {
 		text-align: center;
 	}
@@ -262,6 +268,12 @@
 	.logos {
 		width:9%; 
 		padding: 3px;
+	}
+	.div__clima {
+		padding: 0;
+	}
+	.transito {
+		padding: 0;
 	}
 	//cierre general
 	//index
@@ -283,6 +295,24 @@
 		border: 3px solid black;
 		translate: none;
 	}
+	//cierre interes
+	//contacto
+	.numeros b {
+		padding: 5px;
+	}
+	.numeros p {
+		padding: 5px;
+		font-size: 20px;
+	}
+	.boton {
+		width: 100%;
+	}
+	.botones {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	//cierre contacto
 }
 
 

@@ -182,10 +182,10 @@ p {
 
 .footer ul li a {
   margin: 5px;
-  padding: 5px; }
+  padding: 15px; }
 
 .logos {
-  width: 7%;
+  width: 8%;
   padding: 10px; }
 
 .logos:hover {
@@ -421,6 +421,9 @@ input {
   border-left: none;
   border-right: none; }
 
+textarea {
+  border: 3px black solid; }
+
 @keyframes scale-up-center {
   0% {
     -webkit-transform: scaleX(0);
@@ -437,11 +440,7 @@ input {
   .footer {
     display: flex;
     justify-content: space-around;
-    flex-direction: column;
     padding: 20px; }
-  .footer h4, .footer ul {
-    margin: 0px 10px;
-    padding: 0px 10px; }
   .footer ul li {
     padding: 0px;
     display: inline;
@@ -450,7 +449,8 @@ input {
     margin: 5px;
     padding: 5px; }
   .logos {
-    width: 15%;
+    width: 17%;
+    height: auto;
     padding: 3px; }
   .bienvenida, .imagenBienvenida {
     margin: 10px;
@@ -513,12 +513,19 @@ input {
     padding: 10px;
     background: linear-gradient(to right, #2c3e50, #3498db);
     display: inline-block;
-    width: 25%;
+    width: 100%;
     display: flex;
     align-self: center;
     border: 3px solid black;
     font-size: 17px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 3px;
+    padding-right: 3px; }
+  .botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
   .fieldset {
     border-color: black;
     margin: 5px;
@@ -596,6 +603,8 @@ input {
     padding: 15px; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  h3 {
+    margin: 0; }
   #navbarNav {
     text-align: center; }
   .nav-item {
@@ -606,6 +615,10 @@ input {
   .logos {
     width: 9%;
     padding: 3px; }
+  .div__clima {
+    padding: 0; }
+  .transito {
+    padding: 0; }
   .interes__h3 {
     text-align: center;
     background: none;
@@ -619,4 +632,15 @@ input {
     border-radius: 12px;
     width: 96%;
     border: 3px solid black;
-    translate: none; } }
+    translate: none; }
+  .numeros b {
+    padding: 5px; }
+  .numeros p {
+    padding: 5px;
+    font-size: 20px; }
+  .boton {
+    width: 100%; }
+  .botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; } }
