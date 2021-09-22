@@ -113,6 +113,12 @@ textarea {
 	border: 3px black solid;
 }
 
+.botones {
+	display: flex;
+	justify-content: center;
+	flex-direction: column-reverse;
+}
+
 @keyframes scale-up-center {
 	0%{
 		-webkit-transform: scaleX(0);

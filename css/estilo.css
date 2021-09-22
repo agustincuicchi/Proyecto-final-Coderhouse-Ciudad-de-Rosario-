@@ -208,7 +208,8 @@ p {
     transform: translateY(-7px); } }
 
 .transito {
-  margin-top: 20px; }
+  margin-top: 20px;
+  text-align: center; }
 
 .transito p {
   text-align: center;
@@ -246,16 +247,7 @@ p {
   margin: 8px;
   border: 3px solid black;
   background-color: #58ACFA;
-  font-weight: bold;
-  font-style: italic;
   text-decoration: none; }
-
-.aside {
-  padding: 20px;
-  border: 3px solid black;
-  background: linear-gradient(to left, #E0EAFC, #CFDEF3);
-  margin: 32px;
-  text-align: justify; }
 
 .articleHistoria {
   display: flex;
@@ -265,11 +257,13 @@ p {
 
 .imgHistoria {
   margin: 10px;
-  border: 5px solid black; }
+  border: 5px solid black;
+  margin-bottom: 50px; }
 
 .sigloXX p b {
   padding: 20px;
-  margin: 15px; }
+  margin: 15px;
+  font-size: 30px; }
 
 .sigloXX {
   text-align: center;
@@ -424,6 +418,11 @@ input {
 textarea {
   border: 3px black solid; }
 
+.botones {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse; }
+
 @keyframes scale-up-center {
   0% {
     -webkit-transform: scaleX(0);
@@ -449,7 +448,7 @@ textarea {
     margin: 5px;
     padding: 5px; }
   .logos {
-    width: 17%;
+    width: 16%;
     height: auto;
     padding: 3px; }
   .bienvenida, .imagenBienvenida {
@@ -471,7 +470,7 @@ textarea {
   .util {
     border: 4px solid black;
     text-align: center;
-    padding: 10px 35px;
+    padding: 20px 40px;
     background: linear-gradient(to right, #2c3e50, #3498db);
     display: flex;
     justify-content: center;
@@ -508,6 +507,12 @@ textarea {
     margin: 0;
     margin-top: 10px;
     margin-bottom: 10px; }
+  .tour {
+    font-size: 23px; }
+  .div__clima {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 1px; }
   .boton {
     margin: 10px;
     padding: 10px;
@@ -572,13 +577,11 @@ textarea {
     margin: 5px;
     padding: 5px; }
   .historia {
-    text-align: justify;
-    padding: 20px;
+    text-align: center;
+    padding: 10px;
     margin: 3px;
-    border: 5px solid black;
+    border: 3px solid black;
     background-color: #58ACFA;
-    font-weight: bold;
-    font-style: italic;
     text-decoration: none; }
   .aside {
     padding: 5px;
@@ -592,8 +595,8 @@ textarea {
     margin: 5px;
     padding: 5px; }
   .imgHistoria {
-    margin: 10px;
-    border: 5px solid black; }
+    margin: 10px 0;
+    border: 2px solid black; }
   .sigloXX p b {
     padding: 20px;
     margin: 15px; }
@@ -616,7 +619,11 @@ textarea {
     width: 9%;
     padding: 3px; }
   .div__clima {
-    padding: 0; }
+    padding: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 2px;
+    margin-left: 3px; }
   .transito {
     padding: 0; }
   .interes__h3 {
